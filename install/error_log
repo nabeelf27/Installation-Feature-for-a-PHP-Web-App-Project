@@ -1,0 +1,31 @@
+[11-Jan-2023 07:46:13 Europe/Berlin] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 8
+[11-Jan-2023 07:46:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php:8
+Stack trace:
+#0 D:\xampp\htdocs\php-site-installation\install\pages\step2.php(8): mysqli->__construct('asdasd', 'asd', '')
+#1 D:\xampp\htdocs\php-site-installation\install\index.php(21): include_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 8
+[11-Jan-2023 07:56:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php:9
+Stack trace:
+#0 D:\xampp\htdocs\php-site-installation\install\pages\step2.php(9): mysqli->connect('asdasd', 'asd', '')
+#1 D:\xampp\htdocs\php-site-installation\install\index.php(21): include_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 9
+[11-Jan-2023 08:51:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php:9
+Stack trace:
+#0 D:\xampp\htdocs\php-site-installation\install\pages\step2.php(9): mysqli->connect('asdasd', 'asd', '')
+#1 D:\xampp\htdocs\php-site-installation\install\index.php(21): include_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 9
+[11-Jan-2023 08:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php:9
+Stack trace:
+#0 D:\xampp\htdocs\php-site-installation\install\pages\step2.php(9): mysqli->connect('asdasd', 'asd', '')
+#1 D:\xampp\htdocs\php-site-installation\install\index.php(21): include_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 9
+[11-Jan-2023 08:52:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for asdasd failed: No such host is known.  in D:\xampp\htdocs\php-site-installation\install\pages\step2.php:9
+Stack trace:
+#0 D:\xampp\htdocs\php-site-installation\install\pages\step2.php(9): mysqli->connect('asdasd', 'asd', '')
+#1 D:\xampp\htdocs\php-site-installation\install\index.php(21): include_once('D:\\xampp\\htdocs...')
+#2 {main}
+  thrown in D:\xampp\htdocs\php-site-installation\install\pages\step2.php on line 9
